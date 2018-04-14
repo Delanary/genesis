@@ -25,13 +25,13 @@ func Multiplicate(male : Male, female : Female) -> Array<Bool> {
     if (c < 60){
         count = 1
     }
-    if ((c < 85) && (c > 59)) {
+    if ((c < 91) && (c > 59)) {
         count = 2
     }
-    if ((c < 94) && (c > 84)) {
+    if ((c < 98) && (c > 90)) {
         count = 3
     }
-    if (c > 93) {
+    if (c > 97) {
         count = 4
     }
 
